@@ -1,7 +1,8 @@
 @extends('users.layout')
 @section('title','Giỏ Hàng')
 @section('content')
-    <div class="">
+<div class="container">
+<div class="">
         <div class="span9">
             <h4 class="title" style="text-align: center"><span class="text"><strong>Giỏ Hàng</strong> Của Bạn </span></h4>
             <table class="table table-striped">
@@ -38,4 +39,5 @@
             </table>
         </div>
     </div>
+</div>
 @endsection
