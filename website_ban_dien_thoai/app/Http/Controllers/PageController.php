@@ -164,6 +164,7 @@ class PageController extends Controller
         $user->password = Hash::make($req->password);
         $user->dienthoai = $req->dienthoai;
         $user->diachi = $req->diachi;
+        $user->trangthai = "active";
         $user->save();
         return redirect()->back()->with('thanhcong','Tạo tài khoản thành công');
     }
@@ -172,7 +173,7 @@ class PageController extends Controller
         $login = [
             'email' => $request->email,
             'password' => $request->password,
-            'trangthai'   =>"active"
+            'trangthai'   => "active"
         ];
         if (Auth::attempt($login)) {
             return redirect('/')->with('name');
