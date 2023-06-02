@@ -1,20 +1,6 @@
 @extends('users.layout')
 @section('title','Đăng Ký')
 @section('content')
-	<div class="inner-header">
-		<div class="container">
-			<div class="pull-left">
-				<h6 class="inner-title">Đăng kí</h6>
-			</div>
-			<div class="pull-right">
-				<div class="beta-breadcrumb">
-					<a href="index.html">Home</a> / <span>Đăng kí</span>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-
 	<div class="container">
 		<div id="content">
 
