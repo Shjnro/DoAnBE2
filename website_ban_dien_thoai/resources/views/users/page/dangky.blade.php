@@ -54,16 +54,16 @@
 							<label for="phone"><b>Số Điện Thoại*</b></label>
 							<input type="text" placeholder="Nhập SDT..." name="dienthoai" required>
                         </div>
-                        <!--
-                        <div class="form-block">
+                        
+                        <!-- <div class="form-block">
                             <label for="phone"><b>Trạng Thái</b></label>
                             <select name="trangthai">
                                 <option name="trangthai">active</option>
                                 <option name="trangthai">default</option>
                             </select>
-                        </div>
+                        </div> -->
 
-                    -->
+                   
 
 						<div class="form-block">
 							<label for="phone"><b>Mật Khẩu*</b></label>
