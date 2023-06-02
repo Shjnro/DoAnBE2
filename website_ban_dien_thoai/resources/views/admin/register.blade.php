@@ -67,8 +67,8 @@
                                       Trạng Thái
                                        </label>
                                        <select name="trangthai">
-                                           <option name="trangthai">active</option>
-                                           <option name="trangthai">default</option>
+                                           <option name="trangthai">active</option> 
+                                           <option name="trangthai">default</option> 
                                        </select>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Đăng Ký</button>

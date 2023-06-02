@@ -49,17 +49,6 @@ Route::get('add-to-cart/{id}', 'ProductsController@addToCart');
 Route::patch('update-cart', 'ProductsController@update');
 Route::delete('remove-from-cart', 'ProductsController@remove');
 });
-/*
-GET	    /product	        		index	product.index
-GET	    /product/create	    		create	product.create
-POST	/product					store	product.store
-GET		/product/{product}			show	product.show
-GET		/product/{product}/edit		edit	product.edit
-PUT/PATCH	/product/{product}		update	product.update
-DELETE	/ product/{product}			destroy	product.destroy
-*/
-
-
 
 
 Route::get('search','PageController@getSearch');
@@ -74,8 +63,8 @@ Route::get('add-to-cart/{id}',['middleware' => 'CheckNguoiDung','uses'=>'PageCon
 Route::get('del-cart/{id}','PageController@getDelItemCart')->name('xoagiohang');
 Route::get('dat-hang',['middleware' => 'CheckNguoiDung','uses'=>'PageController@getCheckout'])->name('dathang');
 Route::post('dat-hang','PageController@postCheckout')->name('dathang');
-Route::get('dang-nhap','PageController@getLogin')->name('login');
-Route::post('dang-nhap','PageController@postLogin')->name('login');
+Route::get('dang-nhap','PageController@getLogin')->name('login');//cua trang chu
+Route::post('dang-nhap','PageController@postLogin')->name('login');//cua quanly
 Route::get('dang-ki','PageController@getSignin')->name('signin');
 Route::post('dang-ki','PageController@postSignin')->name('signin');
 Route::get('dang-xuat','PageController@postLogout')->name('logout');
