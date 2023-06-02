@@ -63,7 +63,7 @@ class LoginController extends Controller
             'email.unique'=>'Email đã có người sử dụng',
             'password.required'=>'Vui lòng nhập mật khẩu',
             're_password.same'=>'Mật khẩu không giống nhau',
-            'password.min'=>'Mật khẩu ít nhất 6 kí tự'
+            'password.min'=>'Mật khẩu ít nhất chứa 6 kí tự'
         ]);
     $user = new User();
     $user->name = $request->name;
@@ -71,7 +71,7 @@ class LoginController extends Controller
     $user->password = Hash::make($request->password);
     $user->trangthai=$request->trangthai;
     $user->save();
-    return redirect()->back()->with('thanhcong','Tạo tài khoản thành công');
+    return redirect()->back()->with('thanhcong','Tạo tài khoản thành công !!!');
     }
 }
 ?>

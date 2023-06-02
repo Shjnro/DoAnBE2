@@ -16,7 +16,7 @@
       <thead>
         <th>Name</th>
         <th>Email</th>
-        <th >Password</th>
+        <th>Password</th>
         <th>created Date</th>
         <th>Edit</th>
         <th>Lock</th>
