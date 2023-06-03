@@ -13,7 +13,6 @@ class Product extends Model
         'name',
         'image',
         'price',
-        // 'discount',
         'description',
         'baohanh',
         'trangthai',

@@ -12,19 +12,19 @@
         </select>
    </div>
     <div class="form-group">
-     <label for="name">Name:</label>
+     <label for="name">Name: </label>
      <input type="text" class="form-control" name="name">
    </div>
    <div class="form-group">
-     <label for="image">Image:</label>
+     <label for="image">Image: </label>
      <input type="file" class="form-control"name="image" value="" />
    </div>
    <div class="form-group">
-    <label for="price">Price:</label>
+    <label for="price">Price: </label>
     <input type="text" class="form-control"name="price">
   </div>
   <div class="form-group">
-    <label for="discount">Discount:</label>
+    <label for="discount">Discount: </label>
     <input type="text" class="form-control"name="discount">
   </div>
   <div class="form-group">
@@ -47,14 +47,14 @@
    </select>
 </div>
   <div class="">
-    <label for="trangthai">Trạng Thái:</label>
+    <label for="trangthai">Trạng Thái: </label>
     <select name="trangthai" class="form-control">
         <option >Còn Hàng</option>
         <option >Hết Hàng</option>
   </select>
   </div>
   <div class="form-group">
-    <label for="content">Content:</label>
+    <label for="content">Content: </label>
     <textarea class="form-control" name="content" id="con"></textarea>
     <script>CKEDITOR.replace('con');</script>
   </div>

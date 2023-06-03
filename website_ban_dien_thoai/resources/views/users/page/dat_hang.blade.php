@@ -104,7 +104,7 @@
                                 <div class="payment_box payment_method_cheque" style="display: none;">
                                     Chuyển tiền đến tài khoản sau:
                                     <br>- Số tài khoản: 123 456 789
-                                    <br>- Chủ TK: Nguyễn Quốc Khánh
+                                    <br>- Chủ TK: Võ Minh Thịnh
                                     <br>- Ngân hàng AG, Chi nhánh TPHCM
                                 </div>
                             </li>
